@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: <connection-string>
+    username: <your-username>
+    password: <your-password>
+    driverClassName: org.postgresql.Driver
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: furkankulaksiz68@gmail.com
+    password: <your-app-password>
+
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

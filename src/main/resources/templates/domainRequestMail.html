@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>High Request Count Domains</title>
+</head>
+<body>
+<h2>Alert: High Request Count Detected</h2>
+<p>The following domain has exceeded the average request count:</p>
+<ul>
+    <li><strong>Domain Name:</strong> <span th:text="${domain}"></span></li>
+    <li><strong>Total Requests:</strong> <span th:text="${totalRequestCount}"></span></li>
+</ul>
+</body>
+</html>
